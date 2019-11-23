@@ -27,4 +27,4 @@ View an [example](https://github.com/microsoftgraph/microsoft-graph-comms-sample
 ![Local Hosting Diagram](images/communications-local-media.PNG)<br/></br>
 
 ### Permissions
-If a bot is accessing direct media streams, it must have the *Calls.AccessMedia.All* permission.
+Please view the [permissions for calls](/graph/permissions-reference#calls-permissions) for calling and media related permissions.
