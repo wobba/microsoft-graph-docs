@@ -27,6 +27,4 @@ Currently, bots are able to
 - be invited into existing group calls
 
 ### Permissions:
-If the user wants to invite a bot to a group call they created, the bot needs to have permission from the tenant administrator to join a group call.
-
-If a bot is creating a group call and wants to invite additional participants, it needs to have the *initiate-group-call* permission.
+Please view the [permissions for calls](/graph/permissions-reference#calls-permissions) for more information.
