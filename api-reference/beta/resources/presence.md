@@ -1,6 +1,6 @@
 ---
 title: "presence resource type"
-description: "This contains information regarding a user's presence including their availability, user activity, and when they were last active."
+description: "This contains information regarding a user's presence including their availability and user activity."
 author: "VinodRavichandran"
 localization_priority: Normal
 doc_type: resourcePageType
@@ -11,7 +11,7 @@ ms.prod: "cloud-communications"
 
 This contains information regarding a user's presence including their availability and user activity.
 
-> **Note:** This is currently only supported for enterprise users of Microsoft Teams
+> **Note:** This is currently only supported for Microsoft Teams users.
 
 ## Methods
 
@@ -26,8 +26,8 @@ This contains information regarding a user's presence including their availabili
 | Relationship        | Type                                                 | Description                                                         |
 |:--------------------|:-----------------------------------------------------|:--------------------------------------------------------------------|
 |id    |  string     | 	The user object id   |
-|availability    |  string collection   | 	The base presence information of a user. Possible values are `Available`, `Away`, `BeRightBack`, `Busy`, `DoNotDisturb`  |
-|activity    |  string collection      | 	The supplemental information to a user's availability. Possible values are `Available`, `Away`, `Busy`, `InACall`, `InAMeeting`, `Offline`, `OutOfOffice`, `Presenting`       |
+|availability    |  string collection   | 	The base presence information of a user. Possible values are `Available`, `AvailableIdle`,  `Away`, `BeRightBack`, `Busy`, `BusyIdle`, `DoNotDisturb`, `Offline`, `PresenceUnknown`  |
+|activity    |  string collection      | 	The supplemental information to a user's availability. Possible values are `Available`, `Away`, `BeRightBack`,`Busy`, `•	DoNotDisturb`, `InACall`, `InAConferenceCall`, `Inactive`,`InAMeeting`, `Offline`, `OffWork`,`OutOfOffice`, `PresenceUnknown`,`Presenting`, `UrgentInterruptionsOnly`,       |
 
 >**Note:** New values may be added to availability and activity in the future. To learn more about the different presence states, please view
 >[User Presence in Teams](https://docs.microsoft.com/en-us/microsoftteams/presence-admins). 
