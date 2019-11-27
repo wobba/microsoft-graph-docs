@@ -24,6 +24,7 @@ One of the following [permissions](https://docs.microsoft.com/en-us/graph/permis
 |:------------------------------------|:---------------------------------------------|
 | Calling                 | Calls.JoinGroupCallsasGuest.All, Calls.JoinGroupCalls.All, Calls.Initiate.All, Calls.InitiateGroupCalls.All, Calls.AccessMedia.All |
 | Meetings                 | OnlineMeetings.ReadWrite.All, OnlineMeetings.Read.All |
+| Presence                 | Presence.Read, Presence.Read.All |
 
 ## Common use cases
 
@@ -35,6 +36,7 @@ The following table lists some of the common uses for the communications API.
 |IVR calls   |     | [Methods for IVR](https://docs.microsoft.com/en-us/graph/api/resources/calls-api-ivr-overview?view=graph-rest-beta)
 | Call controls (participant) | [Participant](https://docs.microsoft.com/en-us/graph/api/resources/participant?view=graph-rest-beta)   ||
 |Meetings|[onlineMeeting](https://docs.microsoft.com/en-us/graph/api/resources/onlinemeeting?view=graph-rest-beta)| [Methods for meetings](https://docs.microsoft.com/en-us/graph/api/resources/onlinemeeting?view=graph-rest-beta#methods)|
+|Presence | [presence](/graph/api/resources/presence) | [Methods for presence](/graph/api/resources/presence#methods) |
 
 ## Common properties
 
@@ -43,7 +45,7 @@ The following table lists some of the common uses for the communications API.
 | call                               | [call properties](https://docs.microsoft.com/en-us/graph/api/resources/call?view=graph-rest-beta#properties)  |
 | participant                         | [participant properties](https://docs.microsoft.com/en-us/graph/api/resources/participant?view=graph-rest-beta#properties) |
 | onlineMeeting                            | [onlineMeeting properties](https://docs.microsoft.com/en-us/graph/api/resources/onlinemeeting?view=graph-rest-beta#properties)                     |
-
+| presence | [presence properties](/graph/api/resources/presence#properties) |
 ## See also
 
 - [Communications API samples](https://github.com/microsoftgraph/microsoft-graph-comms-samples/)
