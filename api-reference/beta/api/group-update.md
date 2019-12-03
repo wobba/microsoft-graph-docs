@@ -84,7 +84,6 @@ The following is an example of the request.
 PATCH https://graph.microsoft.com/beta/groups/{id}
 Content-type: application/json
 Content-length: 211
-
 {
   "description": "description-value",
   "displayName": "displayName-value",
