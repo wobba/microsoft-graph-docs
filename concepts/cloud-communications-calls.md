@@ -1,8 +1,16 @@
-# Understanding Calls
+---
+title: "Understand calls"
+description: "Learn about the supported call types and how they're used for the signaling process."
+author: "ananmishr"
+localization_priority: Normal
+ms.prod: "cloud-communications"
+---
+
+# Understand calls
 
 Learn about the supported call types and how they're used for the signaling process.
 
-## Peer-to-Peer Calls
+## Peer-to-Peer calls
 A call is Peer-to-Peer (p2p) when one participant is directly calling another participant. If a bot calls a user, and the user is the only calling target that is specified, this is an example of a p2p call.
 
 ![P2P Diagram](images/communications-p2p-call.PNG)
@@ -12,7 +20,7 @@ If a user wants to call a bot, the bot doesn't need any additional permissions i
 
 In order for a bot to call a user, it must have the *Calls.Initiate.All* permission for a p2p call.
 
-## Group Calls
+## Group calls
 
 A group call occurs if there are either 3 participants (at least) in the call, or if there are [meeting coordinates](/graph/api/resources/onlinemeeting) that are specified when the call was initially created. 
 
