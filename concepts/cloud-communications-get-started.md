@@ -1,4 +1,12 @@
-# Getting Started with Cloud Communications
+---
+title: "Get started with cloud communications"
+description: "Learn how you can utilize bots to respond to your customers' needs and facilitate collaboration."
+author: "ananmishr"
+localization_priority: Normal
+ms.prod: "cloud-communications"
+---
+
+# Get started with cloud communications
 
 Learn how you can utilize bots to respond to your customers' needs and facilitate collaboration.
 
@@ -7,7 +15,7 @@ Understand how the [Azure Active Directory](https://docs.microsoft.com/en-us/azu
 (AAD) service helps your employees sign in and access resources. <br/>
 Familiarize yourself with the [Azure Bot Service](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-3.0) and its capabilities.
 
-## Registering a Bot
+## Register a bot
 
 The terms "service application" and "bot" can be used interchangeably. You can either create a bot through the [Azure Portal](https://azure.microsoft.com/en-us/features/azure-portal/) directly or register a bot that isn't hosted on Azure. 
 More details describing the bot registration process can be found [here](https://microsoftgraph.github.io/microsoft-graph-comms-samples/docs/articles/calls/register-calling-bot.html). 
@@ -17,19 +25,19 @@ To make things easier later on, understand the different [types of permissions](
 
 After you register your bot, if you'd like to [add your bot to Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/calls-and-meetings/registering-calling-bot), make sure you understand how to use [App Studio](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/get-started-app-studio) and define the required metadata.
 
-## Managing the State of the Bot
+## Manage the state of the bot
 
 Once you register your bot, understand if you want your audio and video based media to be [application-hosted or service-hosted](cloud-communications-media). At a high level, decide if you want to access a live-stream of raw media or not.
 
 After this, you can figure out if it's best for your bot to be [stateful or stateless](https://microsoftgraph.github.io/microsoft-graph-comms-samples/docs/articles/calls/StateManagement.html).
 
-#### Stateless Bots
+#### Stateless bots
 
 Any virtual machine can handle any bot instance, which means that if one machine goes down, another can take care of it. This makes for a resilient solution.
 
 On the other hand, a shared cache, such as REDIS, needs to be accessible to all of the virtual machines.
 
-#### Stateful Bots
+#### Stateful bots
 
 A virtual machine can handle only one bot instance at a time. Since all of the states are on one machine, there aren't any extra memory checks or REDIS cache checks.
 
@@ -38,7 +46,7 @@ On the downside, since the bot instance is just on one machine, it isn't as resi
 
 >**Note:** Service-hosted media bots can be stateful or stateless, while application-hosted media bots must be stateful in order to use the [Bot Media SDK](https://www.nuget.org/packages/Microsoft.Skype.Bots.Media).
 
-## Using the SDKs
+## Use the SDKs
 
 These SDKs are written in C#. We hope to have more support for other languages in the future.
 
