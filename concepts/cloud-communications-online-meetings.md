@@ -1,4 +1,12 @@
-# Understanding Online Meetings
+---
+title: "Understand online meetings"
+description: "You'll have the flexibility to create a meeting that takes place in the future, or instantaneously"
+author: "ananmishr"
+localization_priority: Normal
+ms.prod: "cloud-communications"
+---
+
+# Understand online meetings
 
 The terms "*meeting*" and "*online meeting*" are used interchangeably.
 
@@ -9,14 +17,14 @@ You'll have the flexibility to create a meeting that takes place in the future, 
 
 >**Note:** The created meetings do NOT appear on calendars.
 
-### Creating an Online Meeting
+### Create an online meeting
 
 When you create an online meeting, you'll receive [coordinates](/graph/api/resources/onlinemeeting) for the meeting. When participants join the meeting using these meeting coordinates, a group call is created.
 
 When all of the participants leave the group call, the group call will end. Participants can still rejoin the meeting afterwards using the same meeting coordinates, but this will create another group call.
 
 
-### Joining an Online Meeting
+### Join an online meeting
 There's 2 ways to join a meeting once it's been created:
 
 1. Through your browser, using the joinURL that was returned as part of the [meeting coordinates](/graph/api/resources/onlinemeeting).
