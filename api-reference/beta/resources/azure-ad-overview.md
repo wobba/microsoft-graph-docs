@@ -36,7 +36,7 @@ The following table lists some common use cases for Azure AD resources.
 | Manage permissions consented by users and administrators on apps installed in a tenant. | [oAuth2PermissionGrant](../resources/oauth2permissiongrant.md) | N/A |
 | Manage user, group, and service principal role memberships on apps installed in a tenant. | [appRoleAssignment](../resources/approleassignment.md) | N/A |
 | **Identity and sign-in** | | |
-| Monitor identity risk events like users signing in from malware-infected devices or from unfamiliar locations. | [Identity Protection Service API](../resources/identityprotection-root.md) | [Azure Active Directory Identity Protection](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection)<br/><br/>[Azure Active Directory risk events](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-reporting-risk-events) |
+| Monitor identity risk events like users signing in from malware-infected devices or from unfamiliar locations. | [Identity Protection Service API](../resources/identityprotection-root.md) | [Azure Active Directory Identity Protection](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection)<br/><br/>[Azure Active Directory risk events](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-risk-events) |
 | Apply Azure AD policies to applications, service principals, groups, or the entire organization. Currently, policies for token lifetime and home realm discovery are supported.  | [policy](../resources/policy.md) | N/A |
 | **Directory management** | | |
 | Manage administrative units. Directory roles delegate tenant-wide authority to their members. An administrator can create and manage administrative units to delegate more granularly scoped administrative authority to users. | [administrativeUnit](../resources/administrativeunit.md) | [Administrative units management in Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-administrative-units-management) |
@@ -50,7 +50,7 @@ The following table lists some common use cases for Azure AD resources.
 | Get information about an organization, such as its business address, technical and notification contacts, the service plans that it's subscribed to, and the domains associated with it. | [organization](../resources/organization.md) | N/A |
 | Get information about the service SKUs that a company is subscribed to. | [subscribedSku](../resources/subscribedsku.md) | N/A |
 | **Governance** | | |
-| Ensure group memberships and application access rights are correct with access reviews | [access reviews API](../resources/accessreviews-root.md) |[Azure AD access reviews](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-azure-ad-controls-access-reviews-overview) |
+| Ensure group memberships and application access rights are correct with access reviews | [access reviews API](../resources/accessreviews-root.md) |[Azure AD access reviews](https://docs.microsoft.com/azure/active-directory/active-directory-azure-ad-controls-access-reviews-overview) |
 | Manage and monitor time-bound privileged access to directory and Azure resources for administrators and IT professionals with Privileged Identity Management (PIM). | [Privileged Identity Management API](../resources/privilegedidentitymanagement-root.md) | [What is Azure AD Privileged Identity Management?](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure)|
 
 ## Next steps
