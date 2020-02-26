@@ -636,6 +636,107 @@
           href: api/opentypeextension-post-opentypeextension.md
         - name: Get open extension
           href: api/opentypeextension-get.md
+    - name: Applications
+        items:
+        - name: Application
+          href: resources/application.md
+          items:
+          - name: List applications
+            href: api/application-list.md
+          - name: Create application
+            href: api/application-post-applications.md
+          - name: Get application
+            href: api/application-get.md
+          - name: Update application
+            href: api/application-update.md
+          - name: Delete application
+            href: api/application-delete.md
+          - name: List owners
+            href: api/application-list-owners.md
+          - name: Assign owner
+            href: api/application-post-owners.md
+          - name: Application template
+            href: resources/applicationtemplate.md
+            items:
+            - name: List application templates
+              href: api/applicationtemplate-list.md
+            - name: Get application template
+              href: api/applicationtemplate-get.md
+            - name: Instantiate application template
+              href: api/applicationtemplate-instantiate.md
+        - name: App role assignment
+          href: resources/approleassignment.md
+          items:
+          - name: Get appRoleAssignment
+            href: api/approleassignment-get.md
+          - name: Update approleassignment
+            href: api/approleassignment-update.md
+          - name: Delete appRoleAssignment
+            href: api/approleassignment-delete.md
+        - name: Oauth2 permission grant
+          href: resources/oauth2permissiongrant.md
+          items:
+          - name: Get oauth2 permission grant
+            href: api/oauth2permissiongrant-get.md
+          - name: Update oauth2 permission grant
+            href: api/oauth2permissiongrant-update.md
+          - name: Delete oauth2 permission grant
+            href: api/oauth2permissiongrant-delete.md
+        - name: Service principal
+          href: resources/serviceprincipal.md
+          items:
+          - name: List service principal
+            href: api/serviceprincipal-list.md
+          - name: Get service principal
+            href: api/serviceprincipal-get.md
+          - name: Update service principal
+            href: api/serviceprincipal-update.md
+          - name: Delete service principal
+            href: api/serviceprincipal-delete.md
+        - name: Synchronization
+          href: resources/synchronization-overview.md
+          items:
+          - name: Synchronize custom target attributes
+            href: resources/synchronization-configure-with-custom-target-attributes.md
+          - name: Synchronize directory extension attributes
+            href: resources/synchronization-configure-with-directory-extension-attributes.md
+          - name: Job
+            href: resources/synchronization-synchronizationjob.md
+            items:
+            - name: List jobs
+              href: api/synchronization-synchronizationjob-list.md
+            - name: Create job
+              href: api/synchronization-synchronizationjob-post.md
+            - name: Get job
+              href: api/synchronization-synchronizationjob-get.md
+            - name: Start job
+              href: api/synchronization-synchronizationjob-start.md
+            - name: Pause job
+              href: api/synchronization-synchronizationjob-pause.md
+            - name: Restart job
+              href: api/synchronization-synchronizationjob-restart.md
+            - name: Delete job
+              href: api/synchronization-synchronizationjob-delete.md
+          - name: Schema
+            href: resources/synchronization-synchronizationschema.md
+            items:
+            - name: Get schema
+              href: api/synchronization-synchronizationschema-get.md
+            - name: Get schema functions
+              href: api/synchronization-synchronizationschema-functions.md
+            - name: Get schema filter operators
+              href: api/synchronization-synchronizationschema-filteroperators.md
+            - name: Update schema
+              href: api/synchronization-synchronizationschema-update.md
+            - name: Reset schema
+              href: api/synchronization-synchronizationschema-delete.md
+          - name: Template
+            href: resources/synchronization-synchronizationtemplate.md
+            items:
+            - name: List templates
+              href: api/synchronization-synchronizationtemplate-list.md
+            - name: Get template
+              href: api/synchronization-synchronizationtemplate-get.md
     - name: Calendar
       href: resources/calendar.md
       displayname: Outlook calendar
@@ -8246,107 +8347,6 @@
       items:
       - name: Overview
         href: resources/azure-ad-overview.md
-      - name: Applications
-        items:
-        - name: Application
-          href: resources/application.md
-          items:
-          - name: List applications
-            href: api/application-list.md
-          - name: Create application
-            href: api/application-post-applications.md
-          - name: Get application
-            href: api/application-get.md
-          - name: Update application
-            href: api/application-update.md
-          - name: Delete application
-            href: api/application-delete.md
-          - name: List owners
-            href: api/application-list-owners.md
-          - name: Assign owner
-            href: api/application-post-owners.md
-          - name: Application template
-            href: resources/applicationtemplate.md
-            items:
-            - name: List application templates
-              href: api/applicationtemplate-list.md
-            - name: Get application template
-              href: api/applicationtemplate-get.md
-            - name: Instantiate application template
-              href: api/applicationtemplate-instantiate.md
-        - name: App role assignment
-          href: resources/approleassignment.md
-          items:
-          - name: Get appRoleAssignment
-            href: api/approleassignment-get.md
-          - name: Update approleassignment
-            href: api/approleassignment-update.md
-          - name: Delete appRoleAssignment
-            href: api/approleassignment-delete.md
-        - name: Oauth2 permission grant
-          href: resources/oauth2permissiongrant.md
-          items:
-          - name: Get oauth2 permission grant
-            href: api/oauth2permissiongrant-get.md
-          - name: Update oauth2 permission grant
-            href: api/oauth2permissiongrant-update.md
-          - name: Delete oauth2 permission grant
-            href: api/oauth2permissiongrant-delete.md
-        - name: Service principal
-          href: resources/serviceprincipal.md
-          items:
-          - name: List service principal
-            href: api/serviceprincipal-list.md
-          - name: Get service principal
-            href: api/serviceprincipal-get.md
-          - name: Update service principal
-            href: api/serviceprincipal-update.md
-          - name: Delete service principal
-            href: api/serviceprincipal-delete.md
-        - name: Synchronization
-          href: resources/synchronization-overview.md
-          items:
-          - name: Synchronize custom target attributes
-            href: resources/synchronization-configure-with-custom-target-attributes.md
-          - name: Synchronize directory extension attributes
-            href: resources/synchronization-configure-with-directory-extension-attributes.md
-          - name: Job
-            href: resources/synchronization-synchronizationjob.md
-            items:
-            - name: List jobs
-              href: api/synchronization-synchronizationjob-list.md
-            - name: Create job
-              href: api/synchronization-synchronizationjob-post.md
-            - name: Get job
-              href: api/synchronization-synchronizationjob-get.md
-            - name: Start job
-              href: api/synchronization-synchronizationjob-start.md
-            - name: Pause job
-              href: api/synchronization-synchronizationjob-pause.md
-            - name: Restart job
-              href: api/synchronization-synchronizationjob-restart.md
-            - name: Delete job
-              href: api/synchronization-synchronizationjob-delete.md
-          - name: Schema
-            href: resources/synchronization-synchronizationschema.md
-            items:
-            - name: Get schema
-              href: api/synchronization-synchronizationschema-get.md
-            - name: Get schema functions
-              href: api/synchronization-synchronizationschema-functions.md
-            - name: Get schema filter operators
-              href: api/synchronization-synchronizationschema-filteroperators.md
-            - name: Update schema
-              href: api/synchronization-synchronizationschema-update.md
-            - name: Reset schema
-              href: api/synchronization-synchronizationschema-delete.md
-          - name: Template
-            href: resources/synchronization-synchronizationtemplate.md
-            items:
-            - name: List templates
-              href: api/synchronization-synchronizationtemplate-list.md
-            - name: Get template
-              href: api/synchronization-synchronizationtemplate-get.md
       - name: Identity and sign-in
         items:
         - name: Data policy operation
