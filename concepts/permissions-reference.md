@@ -27,7 +27,7 @@ The _constraint_ element of the name determines the potential extent of access y
 
 > **Note**: In delegated scenarios, the effective permissions granted to your app may be constrained by the privileges of the signed-in user in the organization.
 
-## Microsoft accounts and work or school accounts
+## Microsoft accounts and [work or school accounts](#microsoft-graph-permission-names)
 
 Not all permissions are valid for both Microsoft accounts and work or school accounts. You can check the **Microsoft Account Supported** column for each permission group to determine whether a specific permission is valid for Microsoft accounts, work or school accounts, or both.
 
