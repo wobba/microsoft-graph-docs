@@ -4,7 +4,7 @@ description: "Represents an identity used to sign in to a user account."
 localization_priority: Normal
 doc_type: resourcePageType
 ms.prod: "microsoft-identity-platform"
-author: "davidmu1"
+author: "krbain"
 ---
 
 # objectIdentity resource type
