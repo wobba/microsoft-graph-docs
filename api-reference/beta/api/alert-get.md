@@ -219,11 +219,11 @@ Content-type: application/json
   ],
   "securityResources": [
     {
-      "resource": "String"
+      "resource": "String",
       "resourceType": "@odata.type: microsoft.graph.securityResourceType"
     },
     {
-      "resource": "String"
+      "resource": "String",
       "resourceType": "@odata.type: microsoft.graph.securityResourceType"
     }
    ],
