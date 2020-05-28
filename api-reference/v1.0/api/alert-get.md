@@ -138,6 +138,7 @@ Content-type: application/json
     }
   ],
   "id": "String (identifier)",
+  "incidentIds": ["String"],
   "lastModifiedDateTime": "String (timestamp)",
   "malwareStates": [
     {
