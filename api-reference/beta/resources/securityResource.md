@@ -46,7 +46,7 @@ The following is a JSON representation of the resource.
 ```json
 {
   "resource": "String",
-  "resourceType": "String"
+  "resourceType": "@odata.type: microsoft.graph.securityResourceType"
 }
 
 ```
