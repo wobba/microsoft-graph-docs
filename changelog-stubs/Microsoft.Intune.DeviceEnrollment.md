@@ -1,0 +1,8 @@
+### Devices and apps (Microsoft Intune)
+
+| **Change type** | **Version** | **Description** |
+|:---|:---|:---|
+|Deletion|beta|Removed the **deviceAndAppManagementAssignmentFilterId** property from [deviceAndAppManagementAssignmentTarget](/graph/api/resources/intune-deviceAndAppManagementAssignmentTarget?view=graph-rest-beta) resource|
+|Deletion|beta|Removed the **deviceAndAppManagementAssignmentFilterType** property from [deviceAndAppManagementAssignmentTarget](/graph/api/resources/intune-deviceAndAppManagementAssignmentTarget?view=graph-rest-beta) resource|
+|Deletion|beta|Removed the **deviceAndAppManagementAssignmentFilterType** enumeration type|
+|Deletion|beta|Removed the `duplicateLocationId` member from the **vppTokenState** enumeration|
