@@ -18,6 +18,7 @@ For a summary of the value of these API changes, as well as recent tools, compon
 | :-------------- | :------------ | :--------------------------------------- |
 | Removal | beta and v1.0 | Removed the erronously introduced **sequenceNumber** property from the [changeNotification](/graph/api/resources/changenotification) type.|
 | Addition | Beta | Adds [presence](/api/resources/presence) (preview) to resources supported for [change notifications](/graph/webhooks). |
+|Update | beta | Updated syncronization-attributedefinition[https://docs.microsoft.com/en-us/graph/api/resources/synchronization-attributemapping?view=graph-rest-beta] to include an additional attribute definition that supports null valies. |
 
 ### Devices and apps | Cloud printing
 
