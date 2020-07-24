@@ -10876,27 +10876,27 @@ items:
     - name: Reports
       items:
       - name: Activity reports
-          href: resources/azure-ad-auditlog-overview.md
+        href: resources/azure-ad-auditlog-overview.md
+        items:
+        - name: Directory audit
+          href: resources/directoryaudit.md
           items:
-          - name: Directory audit
-            href: resources/directoryaudit.md
-            items:
-            - name: List directory audits
-              href: api/directoryaudit-list.md
-            - name: Get directory audit
-              href: api/directoryaudit-get.md
-          - name: Sign-in
-            href: resources/signin.md
-            items:
-            - name: List sign-ins
-              href: api/signin-list.md
-            - name: Get sign-in
-              href: api/signin-get.md
-          - name: Provisioning
-            href: resources/provisioningobjectsummary.md
-            items:
-            - name: List provisioning
-              href: api/provisioningobjectsummary-list.md
+          - name: List directory audits
+            href: api/directoryaudit-list.md
+          - name: Get directory audit
+            href: api/directoryaudit-get.md
+        - name: Sign-in
+          href: resources/signin.md
+          items:
+          - name: List sign-ins
+            href: api/signin-list.md
+          - name: Get sign-in
+            href: api/signin-get.md
+        - name: Provisioning
+          href: resources/provisioningobjectsummary.md
+          items:
+          - name: List provisioning
+            href: api/provisioningobjectsummary-list.md
       - name: Identity and access reports
         items:
         - name: Overview
