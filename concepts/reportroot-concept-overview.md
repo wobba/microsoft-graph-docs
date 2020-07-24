@@ -1,15 +1,15 @@
 ---
-title: "Microsoft Graph reports APIs overview"
-description: "Reports API in Microsoft Graph enables understanding of application and tenant resource activity."
+title: "Microsoft Graph reports API overview"
+description: "The reports API in Microsoft Graph enables understanding of application and tenant resource activity."
 localization_priority: Priority
 ms.prod: "reports"
 author: "pranoychaudhuri"
 ms.custom: scenarios:getting-started
 ---
 
-# Microsoft Graph reports APIs overview
+# Microsoft Graph reports API overview
 
-Reports APIs in Microsoft Graph enable you to understand application and resource activity in your Azure Active Directory tenant.
+The reports API in Microsoft Graph enable you to understand application and resource activity in your Azure Active Directory tenant.
 
 > [!VIDEO https://www.youtube-nocookie.com/embed/P6HneRXYdx8]
 
